@@ -152,7 +152,34 @@
         <servlet-name>ComputerServlet</servlet-name>
         <url-pattern>/computerServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DownServlet</servlet-name>
+        <servlet-class>com.wztdu.servlet.response.DownServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownServlet</servlet-name>
+        <url-pattern>/downServlet</url-pattern>
+    </servlet-mapping>
     
+    <servlet>
+        <servlet-name>DownServletNew</servlet-name>
+        <servlet-class>com.wztdu.servlet.response.DownServletNew</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownServletNew</servlet-name>
+        <url-pattern>/downServletNew</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MyPayServlet</servlet-name>
+        <servlet-class>com.wztdu.servlet.response.homework.MyPayServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyPayServlet</servlet-name>
+        <url-pattern>/myPayServlet</url-pattern>
+    </servlet-mapping>
+
     <!--配置整个网站的信息-->
     <context-param>
         <param-name>website</param-name>
